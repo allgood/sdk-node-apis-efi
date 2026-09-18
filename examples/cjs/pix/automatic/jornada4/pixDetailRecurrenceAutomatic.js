@@ -7,7 +7,8 @@ const EfiPay = require("sdk-node-apis-efi");
 const options = require("../../../credentials/options.js");
 
 const params = {
-  "idRec": "R000000000000000000000000001"
+  "idRec": "R000000000000000000000000001",
+  "txid": "00000000000000000000000000000000000"
 };
 
 const efipay = new EfiPay(options);

@@ -872,6 +872,7 @@ export type PixCreateRecurrenceAutomaticResponse = z.infer<typeof PixCreateRecur
 
 export const PixDetailRecurrenceAutomaticParamsSchema = z.object({
 	idRec: z.string(),
+	txid: z.string().optional(),
 }).strict()
 
 export type PixDetailRecurrenceAutomaticParams = z.infer<typeof PixDetailRecurrenceAutomaticParamsSchema>

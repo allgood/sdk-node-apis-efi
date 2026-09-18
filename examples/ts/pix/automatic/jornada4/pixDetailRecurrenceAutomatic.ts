@@ -7,7 +7,8 @@ import EfiPay, { type PixDetailRecurrenceAutomaticParams, type SdkOptions } from
 import options from "../../../credentials/options.js";
 
 const params = {
-    "idRec": "R000000000000000000000000001"
+    "idRec": "R000000000000000000000000001",
+    "txid": "00000000000000000000000000000000000"
 } satisfies PixDetailRecurrenceAutomaticParams;
 
 const efipay = new EfiPay(options as SdkOptions);
